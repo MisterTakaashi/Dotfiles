@@ -1,0 +1,4 @@
+{
+  "eslint.autoFixOnSave": true,
+  "diagnostic.displayByAle": true
+}
