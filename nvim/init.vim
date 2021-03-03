@@ -20,6 +20,8 @@ Plugin 'omnisharp/omnisharp-vim'
 call vundle#end()
 filetype plugin indent on
 
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-json']
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
