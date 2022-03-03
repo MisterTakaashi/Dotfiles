@@ -15,12 +15,14 @@ Plugin 'arthurxavierx/vim-caser'
 Plugin 'jparise/vim-graphql'
 Plugin 'tpope/vim-surround'
 Plugin 'omnisharp/omnisharp-vim'
-"Plugin 'w0rp/ale'
+Plugin 'w0rp/ale'
+Plugin 'tomlion/vim-solidity'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()
 filetype plugin indent on
 
-let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-json']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-json', 'coc-rust-analyzer']
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -31,7 +33,7 @@ let g:OmniSharp_server_use_mono = 1
 
 set splitright
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" ale Configuration
-"let b:ale_fixers = ['prettier', 'eslint', 'uncrustify']
+"let b:ale_fixers = ['prettier', 'eslint']
 "let g:ale_fix_on_save = 1
 "let g:ale_disable_lsp = 1
 
