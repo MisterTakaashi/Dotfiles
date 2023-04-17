@@ -2,3 +2,4 @@
 !OpenRGB/
 OpenRGB/logs
 !nvim/
+!lvim/config.lua
